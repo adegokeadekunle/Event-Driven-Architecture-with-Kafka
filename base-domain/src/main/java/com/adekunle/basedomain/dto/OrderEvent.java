@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class OrderEventDto {
+public class OrderEvent {
     private String message;
     private String status;
     private Order order;
