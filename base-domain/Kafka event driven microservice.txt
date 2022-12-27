@@ -1,0 +1,14 @@
+                           EVENT DRIVEN ARCHITECTURE
+  * Event-driven architecture (EDA) is a software design pattern in which decoupled applications can asynchronously
+    publish or subscribe to events via a broker/messaging broker.
+
+  * In an event-driven architecture, application communicate by sending messages and / or receiving  events or messages.
+  * Event-driven architecture is often referred to as asynchronous communication.
+  * Event-driven architecture applications can be created in any programming language because it is a programming approach
+    and not a programming language.
+  * An event-driven architecture is loosely connected/coupled.
+
+                            ADVANTAGES OF Event Driven Architecture
+  * Improves flexibility and maintainability of the applications
+  * High scalability and performance
+  * Improves availability of the application.
