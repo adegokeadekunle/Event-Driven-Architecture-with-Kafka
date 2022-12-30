@@ -23,7 +23,7 @@ public class OrderProducerImpl implements OrderProducer{
     log.info("Order event => {}",orderEvent.toString());
 
     //create a message using the Message class of springFrame work
-        Message<OrderEvent> message = MessageBuilder
+        Message<OrderEvent> message = MessageBuilder  //using spring message builder class
                 .withPayload(orderEvent)  // passing the orderEvent payload
                 .setHeader(KafkaHeaders.TOPIC, topic.name())  // passing the topic name in a message
                 .build();

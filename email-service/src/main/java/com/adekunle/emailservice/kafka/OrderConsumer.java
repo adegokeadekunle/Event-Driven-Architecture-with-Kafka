@@ -1,4 +1,4 @@
-package com.adekunle.stockservice.kafka;
+package com.adekunle.emailservice.kafka;
 
 import com.adekunle.basedomain.dto.OrderEvent;
 import lombok.RequiredArgsConstructor;
@@ -15,6 +15,6 @@ public class OrderConsumer {
     public void consume(OrderEvent orderEvent) {
         log.info("Order event received in stock service {}", orderEvent.toString());
 
-        //todo : save the order into db
+        //TODO : write logic to send message to a user
     }
 }
